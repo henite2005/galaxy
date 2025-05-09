@@ -1,0 +1,97 @@
+body {
+  /* background: radial-gradient(circle at top left, #1d1f2f, #3d3f4f); */
+  /* background: radial-gradient(circle at top left, #0353A4, #003559); */
+  /* background: radial-gradient(circle at center, #0353A4, #061A40); */
+  /* background: radial-gradient(circle at center, #061A40 0%, #0353A4 100%); */
+  /* background: radial-gradient(circle at center, #0353A4 0%, #023E7D 50%, #061A40 100%); */
+  /* background-size: cover; */
+  /* background: radial-gradient(circle at center, rgba(3, 83, 164, 0.9) 0%, rgba(6, 26, 64, 1) 100%); */
+  /* background: radial-gradient(circle at center, #003559 24%, #061A40 100%); */
+  background: radial-gradient(circle at center, #003559 0%, #023E7D 12%, #061A40 93%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logout-box {
+  width: 320px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  padding: 30px 25px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  text-align: center;
+  color: white;
+}
+
+.logout-header {
+  background: #7ac1e4;
+  color: white;
+  padding: 10px;
+  border-radius: 12px 12px 0 0;
+  font-weight: 600;
+  margin: -30px -25px 20px -25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logout-header i {
+  margin-right: 8px;
+}
+
+.logout-icon {
+  font-size: 48px;
+  color: white;
+  margin: 20px 0;
+}
+
+.flag-icon {
+  margin-top: 20px;
+}
+
+.flag-icon img {
+  width: 40px;
+  height: 25px;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(255, 255, 255, 0.4);
+  transition: transform 0.2s ease-in-out;
+}
+
+.flag-icon img:hover {
+  transform: scale(1.1);
+}
+
+.btn-login {
+  margin-top: 20px;
+  background-color: #7ac1e4;
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.btn-login:hover {
+  background-color: #5aaed1;
+}
+
+
+    /* FONT CONFIGURATION */
+    @font-face {
+      font-family: 'Aptos';
+      src: url('../fonts/Aptos.woff2') format('woff2'),
+          url('../fonts/Aptos.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      }
+  
+      :root {
+      --main-font: 'Aptos', calibri;
+      }
+  
+      body {
+      font-family: var(--main-font);
+      }
+  
+      

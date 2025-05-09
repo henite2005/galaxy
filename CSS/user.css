@@ -1,0 +1,90 @@
+body {
+  background: #f4f7fc; 
+  /* background: radial-gradient(circle at center, #003559 0%, #023E7D 0%, #061A40 93%); */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+  background: linear-gradient(#003559, #023E7D, #061A40);
+  color: white;
+  position: fixed;
+}
+
+.sidebar .nav-link {
+  color: white;
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.sidebar .nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-left: 4px solid #fff;
+}
+
+.sidebar i {
+  margin-right: 10px;
+}
+
+.main-content {
+  margin-left: 220px;
+}
+
+.kpi-card {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  background: #fff;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-5px);
+}
+
+.kpi-icon {
+  font-size: 30px;
+  margin-right: 20px;
+}
+
+.kpi-orange { border-left: 5px solid #fd7e14; }
+.kpi-yellow { border-left: 5px solid #ffc107; }
+.kpi-purple { border-left: 5px solid #6f42c1; }
+
+.morph-table .morphic-row {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+  transition: 0.3s ease-in-out;
+}
+
+.morph-table .morphic-row:hover {
+  background: #eef0f5;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+}
+
+    /* FONT CONFIGURATION */
+    @font-face {
+      font-family: 'Aptos';
+      src: url('../fonts/Aptos.woff2') format('woff2'),
+          url('../fonts/Aptos.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+      }
+  
+      :root {
+      --main-font: 'Aptos', calibri;
+      }
+  
+      body {
+      font-family: var(--main-font);
+      }
+  
+      
